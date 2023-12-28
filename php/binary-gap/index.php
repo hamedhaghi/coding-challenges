@@ -1,5 +1,6 @@
 <?php
 
+declare(strict_types=1);
 function solution(string $binary): int
 {
     preg_match('/1(0.*)1/', $binary, $matches);
